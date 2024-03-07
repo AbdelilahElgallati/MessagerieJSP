@@ -35,7 +35,8 @@ public class Personne extends ConnexionBD {
         if(existeDeja()) {
             return false;
         } else {
-            miseAJour("insert into personne (nom, prenom, motDePasse) values ('" + nom + "', '" + prenom + "', '" + motDePasse + "')" );
+            miseAJour("insert into personne (nom, prenom, motDePasse) values ('" + 
+              nom + "', '" + prenom + "', '" + motDePasse + "')" );
             return true;
         }
     }
