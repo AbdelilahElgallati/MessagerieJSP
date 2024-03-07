@@ -1,0 +1,15 @@
+<html>
+    <head><title>Messages</title></head>
+    <body bgcolor="#ffff66">
+        <font face="Arial">
+            <h2 align="center">Messages</h2>
+            <hr>
+            <table bgcolor="1" cellpadding="3" cellspacing="2" width="90%" align="center">
+                <tr bgcolor="#ff9900">
+                    <th align="left"><a href="bienvenue.jsp">Sujets</a></th>
+                    <th align="right">
+                        <a href="#">Identification</a>
+                        <a href="nouvelutilisateur.jsp">Inscription</a>
+                    </th>
+                </tr>
+            </table>
